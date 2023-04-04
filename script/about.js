@@ -35,20 +35,13 @@ window.onclick = (event) => {
     }
 };
 
-let current = document.querySelector(".current")
-let button = document.querySelectorAll(".button")
-let content = document.querySelector('.content')
+const items = document.querySelectorAll(".button");
 
-
-button.forEach((el) => {
-    el.addEventListener("click", (event) => {
-        if (content.style.maxHeight === '0.1px') {
-            content.style.maxHeight = '550px';
-        } else {
-            content.style.maxHeight = '0.1px';
-        }
+for (let i = 0; i < items.length; i++) {
+    items[i].addEventListener("click", function () {
+        this.classList.toggle("open");
     });
-})
+}
 
 let img = document.querySelectorAll(".modal_to")
 let modalTwee = document.querySelector(".modalOne")

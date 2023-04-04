@@ -23,6 +23,7 @@
 }
 
 @media (max-width: 412px) {
+
     #about {
         background: url("../img/image 16.svg") no-repeat center/cover;
         min-height: 50vh;
@@ -163,5 +164,65 @@
         flex-direction: column;
         margin-left: 10px;
         margin-bottom: 30px;
+    }
+    .logos_one_hree {
+        padding-top: 510%;
+        font-size: 24px;
+    }
+    .logos_one {
+        font-size: 24px;
+    }
+    .school-one {
+        display:flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+
+    .yt-one {
+        margin-top: -160px;
+        margin-left: 130px;
+    }
+
+    .yt_one {
+        margin-top: -160px;
+        margin-left: 128px;
+    }
+    .school {
+       display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        font-size: 26px;
+    }
+    .email{
+        font-size: 18px;
+    }
+    .tel{
+        font-size: 18px;
+    }
+    .map{
+        font-size: 18px;
+    }
+    .online{
+        font-size: 18px;
+    }
+    .once{
+        font-size: 18px;
+    }
+    .text_two{
+        font-size: 12px;
+    }
+    .text_two_tree{
+        font-size: 12px;
+    }
+    .modal_content {
+        margin: 0 12px;
+    }
+    .blockes-two {
+        margin-bottom: 40px;
+    }
+    .words-one {
+        margin-top: 658%;
     }
 }
