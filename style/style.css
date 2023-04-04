@@ -1,0 +1,1058 @@
+@font-face {
+    font-family: Gilroy ;
+    src: url("../fonts/gilroy-bold.ttf");
+}
+
+@font-face {
+    font-family: RoadRadio ;
+    src: url("../fonts/RoadRadio-Thin.ttf");
+}
+
+@font-face {
+    font-family: VerbenaC ;
+    src: url("../fonts/verbenac.otf");
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.circle {
+    width: 7px;
+    height: 7px;
+    background: #27D1CE;
+    box-shadow: 0 0 4px rgba(39, 209, 206, 0.5);
+    border-radius: 50%;
+}
+
+.call {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    /*font-weight: 100;*/
+    font-size: 1vw;
+    line-height: 10px;
+    color: #fff;
+    /*padding-top: 10px;*/
+}
+.ratio-one{
+    padding-top: 10px;
+}
+
+.alert_one{
+    margin-top: -15px;
+}
+
+.big-one{
+    margin-top:5px;
+}
+
+.images{
+    width: 25px;
+}
+
+.text {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8vw;
+    /*line-height: 1px;*/
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.text:hover {
+    color: #FFFFFF;
+}
+
+.bins{
+    width: 228px;
+    height: 60px;
+    background: #27D1CE;
+    border-radius: 6px;
+    border: none;
+    margin-left: 50px;
+}
+
+.text-one{
+    font-family:Gilroy, sans-serif ;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.fa-phone{
+    color: #fff;
+    font-size: 16px;
+}
+
+.text-one:hover{
+    color: #FFFFFF;
+}
+
+.line{
+    width: 100%;
+    opacity: 0.15;
+    border: 1px solid #FFFFFF;
+}
+
+
+#about{
+    background: url("../img/image 16.svg")no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.amet{
+    padding-top: 220px;
+}
+
+.text-two{
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    /*font-weight: 400;*/
+    font-size: 5vw;
+    line-height: 75%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.project{
+    font-family: Gilroy ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.ced{
+    margin-left: 430px;
+}
+
+.minim{
+    width: 270px;
+    height: 76px;
+    background: linear-gradient(90deg, #F5318D 0%, #FF5F41 96.67%);
+    opacity: 0.8;
+    filter: blur(58px);
+    border-radius: 6px;
+    position: relative;
+}
+
+.btn-one{
+    position: absolute;
+    width: 250px;
+    height: 66px;
+    background: linear-gradient(90deg, #F5318D 0%, #FF5F41 96.67%);
+    border-radius: 6px;
+    border: none;
+    margin-top: -80px;
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5vw;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+
+.modal__one {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: scale(1);
+    transition: 0.5s;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.close{
+    color: #FFFFFF;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+
+
+/*.modal__one{*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*    background-color: rgba(0,0,0,0.4);*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    display: none;*/
+    /*transform: scale(0);*/
+    /*opacity: 0;*/
+    /*pointer-events: none;*/
+    /*transition: 0.5s;*/
+/*}*/
+
+/*.modal__one{*/
+/*    !*transform: scale(1);*!*/
+/*    display: block;*/
+/*    opacity: 1;*/
+/*    pointer-events: all;*/
+/*}*/
+
+
+.euo_one{
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 28px;
+}
+
+.euo {
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pro {
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 8px;
+}
+
+.inputs {
+    width: 279px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: inset 0 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #BCBCBC;
+
+}
+
+.but-two-one{
+    width: 279px;
+    height: 65px;
+    background: #27D1CE;
+    border-radius: 10px;
+    border: none;
+    font-family: RoadRadio, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-bottom: 24px;
+}
+
+.sideshow{
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.modal_content{
+    position: absolute;
+    margin: 0 362px;
+    /*transform: scale(0.1);*/
+    transition: 1s all;
+    /*z-index: 999;*/
+}
+
+/*.modal_content.system{*/
+/*    transform: scale(1);*/
+/*}*/
+
+.names__two{
+    width: 340px;
+    height: 436px;
+    background: rgba(0 ,0,0,0.4);
+    border-radius: 6px;
+    margin-left: 15px;
+}
+
+
+
+#section{
+    background: linear-gradient(180deg, rgba(23, 26, 35, 2) 0%, #171A23 100%);
+    min-height: 100vh;
+}
+
+
+.diu{
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top:40px;
+    margin-bottom: 20px;
+}
+
+.dolor{
+    font-family: RoadRadio ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.project-one{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1vw;
+    /*opacity: 0.5;*/
+    color: #9a9696;
+    margin-bottom: 20px;
+}
+
+.nwe{
+    color: #FFFFFF;
+}
+
+.vitae{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration-line: underline;
+    background: linear-gradient(90deg, #F63588 0.93%, #F19932 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.one{
+    /*position: absolute;*/
+    margin-top: -28px;
+}
+
+.block_three{
+    margin-top:63px;
+    width: 400px;
+    height: 306px;
+    background: #1F232E;
+    border-radius: 6px;
+}
+
+.images-twos{
+    width: 370px;
+}
+
+.code{
+    position: absolute;
+    font-family: VerbenaC , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2vw;
+    line-height: 119.91%;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.2;
+    margin-left: 250px;
+    margin-top: -50px;
+    transform: rotate(10.13deg);
+}
+
+.auto{
+    width: 20%;
+    margin-top: 60px;
+}
+
+.words{
+    width: 100%;
+    height: 33px;
+    background: linear-gradient(90deg, #F5318D 0%, #FF5F41 49.27%, #EF9F30 100%);
+    margin-top: 390px;
+}
+
+.comm{
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 9px;
+}
+
+.links{
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 9px;
+}
+
+.usages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px;
+    grid-column-gap: 55px;
+}
+
+
+#catalog {
+    background: url("../img/5f9512109039131 1.svg") no-repeat center / cover;
+    min-height: 150vh;
+    position: relative;
+}
+
+.troupe {
+    position: absolute;
+    background: linear-gradient(180deg, #171A23 0%, rgba(23, 26, 35, 0.57) 52.4%, #171A23 100%);
+    width: 100%;
+    min-height: 150vh;
+
+}
+
+.ipsum{
+    font-family: RoadRadio ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:2.5vw;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 33px;
+}
+
+.sit{
+    background: linear-gradient(90deg, #F5318D 0%, #FF5F41 49.27%, #EF9F30 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.ween{
+    margin: 12px 13px;
+}
+
+.circle-one{
+    width: 50px;
+    height: 50px;
+    background: #27D1CE;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+
+.vel-one{
+    font-family: RoadRadio ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.set-ut{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.align{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    margin-top: 60px;
+}
+
+.file{
+    margin-left: 15px;
+}
+
+
+#course {
+    background: linear-gradient(180deg, rgba(23, 26, 35, 2) 0%, #171A23 100%);
+    min-height: 150vh;
+    position: relative;
+}
+
+.classes {
+    position: absolute;
+    margin-top: -200px;
+}
+
+.rectangle0 {
+    width: 340px;
+}
+
+.rename_one{
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 29px;
+}
+
+.rename {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.name {
+    font-family: RoadRadio, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.manes {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.ton {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(90deg, #F5318D 0%, #FF5F41 96.67%);
+    border-radius: 6px;
+    border: none;
+    font-family: RoadRadio, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.ton-one {
+    width: 140px;
+    height: 50px;
+    border: 1px solid #27D1CE;
+    border-radius: 6px;
+    background: transparent;
+    font-family: RoadRadio, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #27D1CE;
+    margin-left: 50px;
+}
+
+.blockes-two {
+    margin: 0 15px;
+}
+
+.wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.names-two {
+    width: 340px;
+    height: 436px;
+    background: linear-gradient(90deg, #F5318D 0%, #FF5F41 96.67%);
+    border-radius: 6px;
+    margin-left: 15px;
+}
+
+.euo_one{
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 28px;
+}
+
+.euo {
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pro {
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 8px;
+}
+
+.inputs {
+    width: 279px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: inset 0 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #BCBCBC;
+
+}
+
+.but-two-one{
+    width: 279px;
+    height: 65px;
+    background: #27D1CE;
+    border-radius: 10px;
+    border: none;
+    font-family: RoadRadio, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-bottom: 24px;
+}
+
+.sideshow{
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.words-one{
+    width: 100%;
+    height: 33px;
+    background: linear-gradient(90deg, #F5318D 0%, #FF5F41 49.27%, #EF9F30 100%);
+    position: absolute;
+    margin-top: 880px;
+}
+
+
+#footer{
+    background: linear-gradient(180deg, rgba(23, 26, 35, 2) 0%, #171A23 100%);
+    min-height: 100vh;
+}
+
+.school{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+}
+.school-one{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 1em;
+}
+
+.logos_one{
+    /*padding-top: 130px;*/
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.logos_one_hree{
+    padding-top: 130px;
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Rectangle_one{
+    width: 330px;
+    height: 270px;
+    cursor: pointer;
+}
+
+.block{
+    background: linear-gradient(90deg, #F5318D 0%, #FF5F41 49.27%, #EF9F30 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.fa-telegram{
+    font-size: 25px;
+    margin: 12px 12px;
+}
+
+.fuse{
+    font-size: 23px;
+    margin: 13px 14px;
+}
+.fa-whatsapp{
+    font-size: 25px;
+    margin: 12px 14px;
+}
+.fa-instagram{
+    font-size: 25px;
+    margin: 12px 14px;
+}
+
+.fas-one{
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.contact{
+
+    font-family: RoadRadio , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 0 10px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+.fa-phone{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 10px;
+
+}
+
+.tel{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8vw;
+    line-height: 31px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.fa-envelope{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.email{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.fa-location-dot{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.map{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.online{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.once{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 23px;
+    padding-top: 4px;
+    color: #FFFFFF;
+}
+
+.iframe{
+    width: 370px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.blockers{
+    width:100%;
+    height: 60px;
+    background: #1F232E;
+    border-radius: 6px;
+    margin-top: 200px;
+}
+
+.text_two{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    opacity: 0.9;
+    padding-top: 24px;
+}
+
+.text_two_tree{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    padding-top: 24px;
+}
+
+.yt {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /*position: relative;*/
+    background: #FFFFFF;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+.yt:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -17px;
+    border-left: 30px solid #484343;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    cursor: pointer;
+}
+
+.yt-one {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background: #FFFFFF;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 520px;
+    cursor: pointer;
+}
+
+.yt-one:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    margin-left: -10px;
+    margin-top: -17px;
+    border-left: 30px solid #484343;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+}
+
+.yt_one {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background: #FFFFFF;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: -260px;
+    cursor: pointer;
+}
+
+.yt_one:after {
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -17px;
+    border-left: 30px solid #484343;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+}
+
+.rame{
+    width: 200px;
+}
+
+.video{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*position: absolute;*/
+    position: relative;
+}
+
+    /*.video__one{*/
+    /*    width: 600px;*/
+    /*    background: #6e6a6a;*/
+    /*    padding-top: 25%;*/
+    /*    position: relative;*/
+    /*    margin-top: -180px;*/
+    /*    !*position: absolute;*!*/
+    /*}*/
+.video__one iframe{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    margin-left: -310px;
+}
+
+.modal--one {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: scale(1);
+    transition: 0.5s;
+    background-color: rgba(0,0,0,0.4);
+}

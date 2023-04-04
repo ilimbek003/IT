@@ -1,0 +1,167 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+
+}
+
+@media (max-width: 412px) {
+    #about {
+        background: url("../img/image 16.svg") no-repeat center/cover;
+        min-height: 50vh;
+    }
+
+    .bins {
+      display: none;
+    }
+
+    .text-two {
+        font-family: RoadRadio , sans-serif;
+        font-size: 5vw;
+        line-height: 77%;
+        margin-bottom: 10px;
+    }
+
+    .ced {
+        margin-left: 137px;
+    }
+    .project {
+        font-family: Gilroy ,sans-serif;
+        line-height: 15px;
+        margin-bottom: 30px;
+    }
+
+    .btn-one {
+        position: absolute;
+        width: 109px;
+        height: 30px;
+        font-size: 1.5vw;
+        color: #FFFFFF;
+    }
+
+    .minim {
+        width: 143px;
+        height: 68px;
+    }
+    .usages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .diu {
+        font-family: RoadRadio , sans-serif;
+        font-size: 14px;
+    }
+
+    .dolor {
+        font-family: RoadRadio ,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    .project-one {
+        width: 361px;
+        font-family: Gilroy , sans-serif;
+        font-size: 11px;
+    }
+    .vitae {
+        font-family: Gilroy , sans-serif;
+        font-size: 10px;
+    }
+
+    .d-flex {
+        display:none;
+    }
+
+    .block_three {
+        width: 363px;
+        height: 306px;
+    }
+    .images-twos {
+        width: 340px;
+    }
+    .auto {
+       display: none;
+    }
+
+    .code {
+        margin-left: 153px;
+        margin-top: 300px;
+        transform: rotate(10.13deg);
+    }
+    .code::after {
+        position: absolute;
+        content: url("../img/loni1.svg");
+    }
+    .words {
+        width: 100%;
+        height: 33px;
+        background: linear-gradient(90deg, #F5318D 0%, #FF5F41 49.27%, #EF9F30 100%);
+        margin-top: 112px;
+    }
+    .links {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .comm {
+        font-family: RoadRadio , sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 9px;
+    }
+    .ipsum {
+        font-family: RoadRadio ,sans-serif;
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .align {
+        display: flex;
+        flex-direction: column;
+    }
+    .vel-one {
+        font-family: RoadRadio ,sans-serif;
+        font-weight: 50;
+        font-size: 18px;
+        text-align: center;
+    }
+    .circle-one {
+        margin-left: 155px;
+    }
+    .set-ut {
+        font-family: Gilroy , sans-serif;
+        text-align: center;
+    }
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+}
