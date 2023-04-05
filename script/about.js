@@ -4,6 +4,7 @@ let imgOne = document.querySelector(".min")
 about.onclick = () => {
     if (open.style.maxHeight === "0px") {
         open.style.maxHeight = "500px"
+        open.style.transaction = "0.5s"
     } else {
         open.style.maxHeight = "0px"
     }

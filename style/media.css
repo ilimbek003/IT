@@ -6,7 +6,97 @@
 @media (max-width: 1200px) {
     .container {
         max-width: 970px;
-        top: 0;
+    }
+    .ced {
+        margin-left: 352px;
+    }
+    .set-ut {
+        font-size: 12px;
+    }
+    .rectangle0 {
+        width: 280px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .manes {
+        font-size: 13px;
+    }
+    .ton {
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .ton-one {
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+        margin-left: 35px;
+    }
+    .names-two {
+        width: 290px;
+        height: 387px;
+        background: linear-gradient(90deg, #F5318D 0%, #FF5F41 96.67%);
+        border-radius: 6px;
+        margin-left: 15px;
+    }
+    .inputs {
+        width: 230px;
+        height: 60px;
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+    .pro {
+        font-size: 12px;
+        padding-top: 0;
+    }
+    .but-two-one {
+        width: 228px;
+        height: 60px;
+        font-size: 16px;
+        margin-left: 30px;
+        margin-bottom: 24px;
+    }
+    .euo_one {
+        font-family: RoadRadio , sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 13px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+
+    .euo {
+        font-family: RoadRadio , sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 13px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .words-one {
+        margin-top: 741px;
+    }
+    .Rectangle_one {
+        width: 285px;
+        height: 270px;
+        cursor: pointer;
+    }
+    .yt{
+        margin-left: 113px;
+    }
+    .yt_one{
+        margin-left: -223px;
+    }
+    .yt-one{
+        margin-left: 439px;
     }
 }
 
@@ -67,6 +157,7 @@
     .usages {
         display: flex;
         flex-direction: column;
+        margin-left: 6px;
     }
 
     .diu {
@@ -93,7 +184,8 @@
 
     .vitae {
         font-family: Gilroy, sans-serif;
-        font-size: 10px;
+        font-size: 11px;
+        margin-left: -21px;
     }
 
     .d-flex {
@@ -179,10 +271,11 @@
         flex-direction: column;
         margin-left: 10px;
         margin-bottom: 30px;
+        margin-top: 93px;
     }
 
     .logos_one_hree {
-        padding-top: 525%;
+        padding-top: 542%;
         font-size: 24px;
     }
 
@@ -221,6 +314,7 @@
         font-size: 26px;
         margin-left: 24px;
     }
+
     .rame {
         width: 95%;
     }
@@ -263,7 +357,7 @@
     }
 
     .words-one {
-        margin-top: 658%;
+        margin-top: 679%;
     }
 
     .rectangle0 {
@@ -304,9 +398,205 @@
         height: 270px;
         cursor: pointer;
     }
+
     .iframe {
         width: 95%;
         height: 206px;
         border-radius: 15px;
+    }
+
+    .call {
+        font-size: 11px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+    .navbar {
+        display: flex;
+    }
+    .logo {
+        cursor: pointer;
+        width: 140px;
+    }
+    .fa-phone {
+        color: #FFFFFF;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .text-two {
+        font-family: RoadRadio , sans-serif;
+        font-size: 30px;
+        width: 383px;
+    }
+    .project{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 145.5%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .blockers {
+        width: 100%;
+        height: 60px;
+        background: #1F232E;
+        border-radius: 6px;
+        margin-top: 136px;
+    }
+}
+
+@media (max-width: 340px) {
+    .logo {
+        cursor: pointer;
+        width: 100px;
+    }
+    .call {
+        font-size: 10px;
+    }
+    .text {
+        font-size: 10px;
+    }
+    .big-one {
+        margin-top: -9px;
+    }
+    .text-two {
+        font-family: RoadRadio , sans-serif;
+        font-size: 25px;
+        width: 316px;
+    }
+    .project {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 145.5%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .btn-one {
+        position: absolute;
+        width: 109px;
+        height: 30px;
+        font-size: 9px;
+        color: #FFFFFF;
+    }
+    .ced {
+        margin-left: 96px;
+    }
+    .dolor {
+        font-family: RoadRadio, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .project-one {
+        width: 361px;
+        font-family: Gilroy, sans-serif;
+        font-size: 9px;
+    }
+    .vitae {
+        font-family: Gilroy, sans-serif;
+        font-size: 10px;
+        margin-left: -21px;
+    }
+    .block_three {
+        width: 302px;
+        height: 246px;
+    }
+    .images-twos {
+        width: 285px;
+    }
+    .code {
+        margin-left: 153px;
+        margin-top: 239px;
+        transform: rotate(10.13deg);
+    }
+    .circle-one {
+        margin-left: 120px;
+    }
+    .rectangle0 {
+        width: 95%;
+    }
+    .name {
+        font-size: 16px;
+        line-height: 0;
+    }
+    .manes {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .ton {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 1px;
+    }
+    .ton-one {
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+        margin-left: 28px;
+    }
+    .names-two {
+        width: 280px;
+        height: 436px;
+        background: linear-gradient(90deg, #F5318D 0%, #FF5F41 96.67%);
+        border-radius: 6px;
+        margin-left: 15px;
+    }
+    .but-two-one {
+        width: 220px;
+        height: 60px;
+        font-size: 15px;
+    }
+    .words-one {
+        margin-top: 730%;
+    }
+    .comm {
+        font-size: 4px;
+    }
+    .logos_one_hree {
+        padding-top: 572%;
+        font-size: 20px;
+    }
+    .logos_one {
+        font-size: 20px;
+    }
+    .yt {
+        margin-top: -160px;
+        margin-left: 106px;
+    }
+    .yt-one {
+        margin-top: -160px;
+        margin-left: 106px;
+    }
+    .yt_one {
+        margin-top: -160px;
+        margin-left: 106px;
+    }
+    .inputs {
+        width: 220px;
+        height: 60px;
+    }
+    .names__two {
+        width: 271px;
+        height: 436px;
+        background: rgba(0 ,0,0,0.4);
+        border-radius: 6px;
+        margin-left: 15px;
+    }
+    .video__one iframe {
+        position: absolute;
+        width: 276px;
+        height: 197px;
+        margin-left: -133px;
+    }
+    .modal--one {
+        width: 100vw;
+        height: 156vh;
     }
 }

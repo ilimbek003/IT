@@ -244,10 +244,16 @@ body {
 .faq{
     overflow: hidden;
     max-height: 0;
-    transition: background 1s ease-out;
+    transition: all 0.5s ease-in-out;
 }
-
-
+.ores{
+    font-family: Gilroy , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 145.5%;
+    color: #606678;
+}
 .faq-title {
     padding-top: 14px;
     padding-left: 20px;
@@ -259,7 +265,7 @@ body {
     height: 48px;
     background: #1F232E;
     border-radius: 6px;
-    transition: background 0.2s ease-out;
+    transition: all 0.3s ease-in-out;
     /*margin-bottom: 20px;*/
     font-family: Gilroy , sans-serif;
     font-style: normal;
