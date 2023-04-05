@@ -446,157 +446,157 @@
     }
 }
 
-@media (max-width: 340px) {
-    .logo {
-        cursor: pointer;
-        width: 100px;
-    }
-    .call {
-        font-size: 10px;
-    }
-    .text {
-        font-size: 10px;
-    }
-    .big-one {
-        margin-top: -9px;
-    }
-    .text-two {
-        font-family: RoadRadio , sans-serif;
-        font-size: 25px;
-        width: 316px;
-    }
-    .project {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 11px;
-        line-height: 145.5%;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    .btn-one {
-        position: absolute;
-        width: 109px;
-        height: 30px;
-        font-size: 9px;
-        color: #FFFFFF;
-    }
-    .ced {
-        margin-left: 96px;
-    }
-    .dolor {
-        font-family: RoadRadio, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 30px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        margin-bottom: 20px;
-    }
-    .project-one {
-        width: 361px;
-        font-family: Gilroy, sans-serif;
-        font-size: 9px;
-    }
-    .vitae {
-        font-family: Gilroy, sans-serif;
-        font-size: 10px;
-        margin-left: -21px;
-    }
-    .block_three {
-        width: 302px;
-        height: 246px;
-    }
-    .images-twos {
-        width: 285px;
-    }
-    .code {
-        margin-left: 153px;
-        margin-top: 239px;
-        transform: rotate(10.13deg);
-    }
-    .circle-one {
-        margin-left: 120px;
-    }
-    .rectangle0 {
-        width: 95%;
-    }
-    .name {
-        font-size: 16px;
-        line-height: 0;
-    }
-    .manes {
-        font-size: 13px;
-        line-height: 15px;
-    }
-    .ton {
-        width: 120px;
-        height: 40px;
-        font-size: 12px;
-        line-height: 1px;
-    }
-    .ton-one {
-        width: 130px;
-        height: 40px;
-        font-size: 12px;
-        margin-left: 28px;
-    }
-    .names-two {
-        width: 280px;
-        height: 436px;
-        background: linear-gradient(90deg, #F5318D 0%, #FF5F41 96.67%);
-        border-radius: 6px;
-        margin-left: 15px;
-    }
-    .but-two-one {
-        width: 220px;
-        height: 60px;
-        font-size: 15px;
-    }
-    .words-one {
-        margin-top: 730%;
-    }
-    .comm {
-        font-size: 4px;
-    }
-    .logos_one_hree {
-        padding-top: 572%;
-        font-size: 20px;
-    }
-    .logos_one {
-        font-size: 20px;
-    }
-    .yt {
-        margin-top: -160px;
-        margin-left: 106px;
-    }
-    .yt-one {
-        margin-top: -160px;
-        margin-left: 106px;
-    }
-    .yt_one {
-        margin-top: -160px;
-        margin-left: 106px;
-    }
-    .inputs {
-        width: 220px;
-        height: 60px;
-    }
-    .names__two {
-        width: 271px;
-        height: 436px;
-        background: rgba(0 ,0,0,0.4);
-        border-radius: 6px;
-        margin-left: 15px;
-    }
-    .video__one iframe {
-        position: absolute;
-        width: 276px;
-        height: 197px;
-        margin-left: -133px;
-    }
-    .modal--one {
-        width: 100vw;
-        height: 156vh;
-    }
-}
+/*@media (max-width: 340px) {*/
+/*    .logo {*/
+/*        cursor: pointer;*/
+/*        width: 100px;*/
+/*    }*/
+/*    .call {*/
+/*        font-size: 10px;*/
+/*    }*/
+/*    .text {*/
+/*        font-size: 10px;*/
+/*    }*/
+/*    .big-one {*/
+/*        margin-top: -9px;*/
+/*    }*/
+/*    .text-two {*/
+/*        font-family: RoadRadio , sans-serif;*/
+/*        font-size: 25px;*/
+/*        width: 316px;*/
+/*    }*/
+/*    .project {*/
+/*        font-style: normal;*/
+/*        font-weight: 400;*/
+/*        font-size: 11px;*/
+/*        line-height: 145.5%;*/
+/*        text-align: center;*/
+/*        color: #FFFFFF;*/
+/*    }*/
+/*    .btn-one {*/
+/*        position: absolute;*/
+/*        width: 109px;*/
+/*        height: 30px;*/
+/*        font-size: 9px;*/
+/*        color: #FFFFFF;*/
+/*    }*/
+/*    .ced {*/
+/*        margin-left: 96px;*/
+/*    }*/
+/*    .dolor {*/
+/*        font-family: RoadRadio, sans-serif;*/
+/*        font-style: normal;*/
+/*        font-weight: 400;*/
+/*        font-size: 30px;*/
+/*        line-height: 30px;*/
+/*        text-transform: uppercase;*/
+/*        color: #FFFFFF;*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+/*    .project-one {*/
+/*        width: 361px;*/
+/*        font-family: Gilroy, sans-serif;*/
+/*        font-size: 9px;*/
+/*    }*/
+/*    .vitae {*/
+/*        font-family: Gilroy, sans-serif;*/
+/*        font-size: 10px;*/
+/*        margin-left: -21px;*/
+/*    }*/
+/*    .block_three {*/
+/*        width: 302px;*/
+/*        height: 246px;*/
+/*    }*/
+/*    .images-twos {*/
+/*        width: 285px;*/
+/*    }*/
+/*    .code {*/
+/*        margin-left: 153px;*/
+/*        margin-top: 239px;*/
+/*        transform: rotate(10.13deg);*/
+/*    }*/
+/*    .circle-one {*/
+/*        margin-left: 120px;*/
+/*    }*/
+/*    .rectangle0 {*/
+/*        width: 95%;*/
+/*    }*/
+/*    .name {*/
+/*        font-size: 16px;*/
+/*        line-height: 0;*/
+/*    }*/
+/*    .manes {*/
+/*        font-size: 13px;*/
+/*        line-height: 15px;*/
+/*    }*/
+/*    .ton {*/
+/*        width: 120px;*/
+/*        height: 40px;*/
+/*        font-size: 12px;*/
+/*        line-height: 1px;*/
+/*    }*/
+/*    .ton-one {*/
+/*        width: 130px;*/
+/*        height: 40px;*/
+/*        font-size: 12px;*/
+/*        margin-left: 28px;*/
+/*    }*/
+/*    .names-two {*/
+/*        width: 280px;*/
+/*        height: 436px;*/
+/*        background: linear-gradient(90deg, #F5318D 0%, #FF5F41 96.67%);*/
+/*        border-radius: 6px;*/
+/*        margin-left: 15px;*/
+/*    }*/
+/*    .but-two-one {*/
+/*        width: 220px;*/
+/*        height: 60px;*/
+/*        font-size: 15px;*/
+/*    }*/
+/*    .words-one {*/
+/*        margin-top: 730%;*/
+/*    }*/
+/*    .comm {*/
+/*        font-size: 4px;*/
+/*    }*/
+/*    .logos_one_hree {*/
+/*        padding-top: 572%;*/
+/*        font-size: 20px;*/
+/*    }*/
+/*    .logos_one {*/
+/*        font-size: 20px;*/
+/*    }*/
+/*    .yt {*/
+/*        margin-top: -160px;*/
+/*        margin-left: 106px;*/
+/*    }*/
+/*    .yt-one {*/
+/*        margin-top: -160px;*/
+/*        margin-left: 106px;*/
+/*    }*/
+/*    .yt_one {*/
+/*        margin-top: -160px;*/
+/*        margin-left: 106px;*/
+/*    }*/
+/*    .inputs {*/
+/*        width: 220px;*/
+/*        height: 60px;*/
+/*    }*/
+/*    .names__two {*/
+/*        width: 271px;*/
+/*        height: 436px;*/
+/*        background: rgba(0 ,0,0,0.4);*/
+/*        border-radius: 6px;*/
+/*        margin-left: 15px;*/
+/*    }*/
+/*    .video__one iframe {*/
+/*        position: absolute;*/
+/*        width: 276px;*/
+/*        height: 197px;*/
+/*        margin-left: -133px;*/
+/*    }*/
+/*    .modal--one {*/
+/*        width: 100vw;*/
+/*        height: 156vh;*/
+/*    }*/
+/*}*/
