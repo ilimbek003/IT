@@ -6,6 +6,7 @@
 @media (max-width: 1200px) {
     .container {
         max-width: 970px;
+        top: 0;
     }
 }
 
@@ -22,7 +23,7 @@
 
 }
 
-@media (max-width: 412px) {
+@media (max-width: 400px) {
 
     #about {
         background: url("../img/image 16.svg") no-repeat center/cover;
@@ -30,11 +31,11 @@
     }
 
     .bins {
-      display: none;
+        display: none;
     }
 
     .text-two {
-        font-family: RoadRadio , sans-serif;
+        font-family: RoadRadio, sans-serif;
         font-size: 5vw;
         line-height: 77%;
         margin-bottom: 10px;
@@ -43,8 +44,9 @@
     .ced {
         margin-left: 137px;
     }
+
     .project {
-        font-family: Gilroy ,sans-serif;
+        font-family: Gilroy, sans-serif;
         line-height: 15px;
         margin-bottom: 30px;
     }
@@ -61,18 +63,19 @@
         width: 143px;
         height: 68px;
     }
+
     .usages {
         display: flex;
         flex-direction: column;
     }
 
     .diu {
-        font-family: RoadRadio , sans-serif;
+        font-family: RoadRadio, sans-serif;
         font-size: 14px;
     }
 
     .dolor {
-        font-family: RoadRadio ,sans-serif;
+        font-family: RoadRadio, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
@@ -84,27 +87,30 @@
 
     .project-one {
         width: 361px;
-        font-family: Gilroy , sans-serif;
+        font-family: Gilroy, sans-serif;
         font-size: 11px;
     }
+
     .vitae {
-        font-family: Gilroy , sans-serif;
+        font-family: Gilroy, sans-serif;
         font-size: 10px;
     }
 
     .d-flex {
-        display:none;
+        display: none;
     }
 
     .block_three {
         width: 363px;
         height: 306px;
     }
+
     .images-twos {
         width: 340px;
     }
+
     .auto {
-       display: none;
+        display: none;
     }
 
     .code {
@@ -112,22 +118,26 @@
         margin-top: 300px;
         transform: rotate(10.13deg);
     }
+
     .code::after {
         position: absolute;
         content: url("../img/loni1.svg");
     }
+
     .words {
         width: 100%;
         height: 33px;
         background: linear-gradient(90deg, #F5318D 0%, #FF5F41 49.27%, #EF9F30 100%);
         margin-top: 112px;
     }
+
     .links {
         font-size: 15px;
         line-height: 20px;
     }
+
     .comm {
-        font-family: RoadRadio , sans-serif;
+        font-family: RoadRadio, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 6px;
@@ -136,8 +146,9 @@
         color: #FFFFFF;
         padding-top: 9px;
     }
+
     .ipsum {
-        font-family: RoadRadio ,sans-serif;
+        font-family: RoadRadio, sans-serif;
         font-size: 20px;
         line-height: 18px;
     }
@@ -146,36 +157,47 @@
         display: flex;
         flex-direction: column;
     }
+
     .vel-one {
-        font-family: RoadRadio ,sans-serif;
+        font-family: RoadRadio, sans-serif;
         font-weight: 50;
         font-size: 18px;
         text-align: center;
     }
+
     .circle-one {
         margin-left: 155px;
     }
+
     .set-ut {
-        font-family: Gilroy , sans-serif;
+        font-family: Gilroy, sans-serif;
         text-align: center;
     }
+
     .wrap {
         display: flex;
         flex-direction: column;
         margin-left: 10px;
         margin-bottom: 30px;
     }
+
     .logos_one_hree {
-        padding-top: 510%;
+        padding-top: 525%;
         font-size: 24px;
     }
+
     .logos_one {
         font-size: 24px;
     }
+
     .school-one {
-        display:flex;
+        display: flex;
         flex-direction: column;
         margin-left: 25px;
+    }
+
+    .mt-5 {
+        margin-top: 0rem !important;
     }
 
 
@@ -188,41 +210,103 @@
         margin-top: -160px;
         margin-left: 128px;
     }
+
     .school {
-       display: flex;
+        display: flex;
         flex-direction: column;
+        margin-left: 15px;
     }
-    .contact{
+
+    .contact {
         font-size: 26px;
+        margin-left: 24px;
     }
-    .email{
+    .rame {
+        width: 95%;
+    }
+
+    .email {
         font-size: 18px;
     }
-    .tel{
+
+    .tel {
         font-size: 18px;
     }
-    .map{
+
+    .map {
         font-size: 18px;
     }
-    .online{
+
+    .online {
         font-size: 18px;
     }
-    .once{
+
+    .once {
         font-size: 18px;
+        margin-left: 15px;
     }
-    .text_two{
+
+    .text_two {
         font-size: 12px;
     }
-    .text_two_tree{
+
+    .text_two_tree {
         font-size: 12px;
     }
+
     .modal_content {
         margin: 0 12px;
     }
+
     .blockes-two {
         margin-bottom: 40px;
     }
+
     .words-one {
         margin-top: 658%;
+    }
+
+    .rectangle0 {
+        width: 95%;
+    }
+
+    .rename_one {
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .name {
+        font-size: 18px;
+        line-height: 0;
+    }
+
+    .manes {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .ton {
+        width: 135px;
+        height: 45px;
+        font-size: 14px;
+        line-height: 1px;
+    }
+
+    .ton-one {
+        width: 135px;
+        height: 45px;
+        font-size: 14px;
+        margin-left: 44px;
+    }
+
+    .Rectangle_one {
+        width: 95%;
+        height: 270px;
+        cursor: pointer;
+    }
+    .iframe {
+        width: 95%;
+        height: 206px;
+        border-radius: 15px;
     }
 }

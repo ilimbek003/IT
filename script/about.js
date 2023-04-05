@@ -1,19 +1,16 @@
 let about = document.querySelector('.flexOne')
-let open = document.querySelector('.open')
+let open = document.querySelector('.faq')
 let imgOne = document.querySelector(".min")
 about.onclick = () => {
-
-    if (open.style.maxHeight === "0.1px") {
+    if (open.style.maxHeight === "0px") {
         open.style.maxHeight = "500px"
-        imgOne.style.transform = 'rotate(360deg)'
     } else {
-        open.style.maxHeight = "0.1px"
-        imgOne.style.transform = 'rotate(0)'
+        open.style.maxHeight = "0px"
     }
 }
 
 imgOne.onclick = () => {
-    imgOne.style.transform = 'rotate(60deg)'
+    imgOne.style.transform = 'rotate(360deg)'
 }
 
 let btnOne = document.getElementById("btn_one");
@@ -34,14 +31,6 @@ window.onclick = (event) => {
         modalOne.style.display = "none";
     }
 };
-
-const items = document.querySelectorAll(".button");
-
-for (let i = 0; i < items.length; i++) {
-    items[i].addEventListener("click", function () {
-        this.classList.toggle("open");
-    });
-}
 
 let img = document.querySelectorAll(".modal_to")
 let modalTwee = document.querySelector(".modalOne")
