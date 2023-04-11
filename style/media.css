@@ -90,5 +90,13 @@
         z-index: 2;
     }
 
+    .names__two {
+        width: 300px;
+        height: 436px;
+        background: rgba(0 ,0,0,0.4);
+        border-radius: 6px;
+        margin-left: -330px;
+        position: absolute;
+    }
 }
 
